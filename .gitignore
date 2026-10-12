@@ -1,0 +1,11 @@
+# VS缓存
+.vs/
+*.suo
+*.user
+
+# UE5 忽略编译生成文件
+Ski25D/Binaries/
+Ski25D/Intermediate/
+Ski25D/Saved/
+Ski25D/DerivedDataCache/
+*.log

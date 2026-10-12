@@ -1,0 +1,44 @@
+# ==========================================================
+#  《吉雪奇旅》 Ski25D  —  Unreal Engine 5 项目 .gitignore
+#
+#  原则：
+#    提交 —— Source / Config / Content / *.uproject / 文档脚本
+#    忽略 —— 所有能用工具重新生成的东西（十几 GB）
+# ==========================================================
+
+# ---------- 编译产物（全部可重新生成）----------
+Binaries/
+Build/
+Intermediate/
+DerivedDataCache/
+
+# ---------- Visual Studio ----------
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.VC.VC.opendb
+
+# ---------- 编辑器运行数据 / 日志 / 自动备份 ----------
+Saved/
+Backup/
+*.autosave
+
+# ---------- 引擎自带示例内容（612 MB，本项目未引用）----------
+# 经烘焙清单验证：游戏里没有任何资源引用 StarterContent。
+# 如果你以后要用到它，把下面这一行删掉即可。
+Content/StarterContent/
+
+# ---------- 打包 / 发布产物 ----------
+PackagedBuilds/
+StagedBuilds/
+*.zip
+
+# ---------- 系统垃圾 ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
+UpgradeLog*.htm
