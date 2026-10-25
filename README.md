@@ -8,7 +8,7 @@
 
 **当前版本：三关可玩工程版。** 下载源码后需要安装 UE 5.5 并编译运行；仓库内的启动脚本通过 Unreal Editor 启动游戏窗口。
 
-![吉雪奇旅游戏首页](docs/images/home.png)
+![吉雪奇旅游戏首页](assets/home.png)
 
 ## 目录
 
@@ -59,7 +59,7 @@
 
 | 北大湖滑行 | 雪夜通关庆祝 |
 | --- | --- |
-| ![北大湖关卡实机画面](docs/images/beidahu.png) | ![通关欢呼与烟花实机画面](docs/images/victory.png) |
+| ![北大湖关卡实机画面](assets/beidahu.png) | ![通关欢呼与烟花实机画面](assets/victory.png) |
 
 ## 环境准备
 
